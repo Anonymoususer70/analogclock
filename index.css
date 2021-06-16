@@ -1,15 +1,16 @@
-html{
+/* html{
     background: black;
-}
+} */
 
 #comptime{
     position: relative;
-    top: 80px;
-    left: 450px;
+    top: 50%;
+    left: 30%;
     background: orangered;
-    height:53vw;
-    width: 54vw;
+    height:40vw;
+    width: 55vw;
     background: url(clock2.jpeg) no-repeat;
+    background-size: 70%;
 }
 
 #hours, #minutes, #seconds{
@@ -20,22 +21,25 @@ html{
 }
 
 #hours{
-    height: 111px;
-    width: 10px;
-    top: 140px;
-    left: 231px;
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 35.2%;
+    opacity: 1;
 }
 
 #minutes{
-    height: 141px;
-    width: 8px;
-    top: 110px;
-    left: 231px;
+    width: 1.6%;
+    height: 30%;
+    top: 20%;
+    left: 35.1%;
+    opacity: 0.8;
 }
 
 #seconds{
-    height: 161px;
-    width: 5px;
-    top: 90px;
-    left: 231px;
+    width: 1%;
+    height: 40%;
+    top: 10%;
+    left: 35.21%;
+    opacity: 0.8;
 }

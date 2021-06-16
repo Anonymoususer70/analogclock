@@ -1,0 +1,41 @@
+html{
+    background: black;
+}
+
+#comptime{
+    position: relative;
+    top: 80px;
+    left: 450px;
+    background: orangered;
+    height:53vw;
+    width: 54vw;
+    background: url(clock2.jpeg) no-repeat;
+}
+
+#hours, #minutes, #seconds{
+    position: absolute;
+    background: black;
+    transform-origin: bottom;
+    border-radius: 10px;
+}
+
+#hours{
+    height: 111px;
+    width: 10px;
+    top: 140px;
+    left: 231px;
+}
+
+#minutes{
+    height: 141px;
+    width: 8px;
+    top: 110px;
+    left: 231px;
+}
+
+#seconds{
+    height: 161px;
+    width: 5px;
+    top: 90px;
+    left: 231px;
+}
